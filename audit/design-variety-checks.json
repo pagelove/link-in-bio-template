@@ -1,0 +1,56 @@
+{
+  "utc": "2026-11-06T00:27:44.792Z",
+  "app": "link-in-bio",
+  "design": "invitation",
+  "mode": "dark",
+  "desktop": {
+    "app": "link-in-bio",
+    "background": "rgb(12, 14, 26)",
+    "bodyFamily": "\"Inter Tight\", system-ui, sans-serif",
+    "bodyFontReady": true,
+    "cardRadius": "16px",
+    "design": "invitation",
+    "headingFamily": "Fraunces, Georgia, serif",
+    "headingFontReady": true,
+    "mode": "dark",
+    "overflow": false
+  },
+  "mobile": {
+    "app": "link-in-bio",
+    "headerActionHeight": 46,
+    "overflow": false,
+    "width": 320
+  },
+  "tasks": {
+    "app": "link-in-bio",
+    "empty": "0 links",
+    "dialogFocus": true,
+    "escapeCloses": true
+  },
+  "checks": [
+    {
+      "args": [
+        "scripts/check.mjs"
+      ],
+      "status": 0
+    },
+    {
+      "args": [
+        "--test",
+        "tests/model.test.mjs",
+        "tests/domain.test.mjs",
+        "tests/persistence.test.mjs",
+        "tests/deployment.test.mjs"
+      ],
+      "status": 0
+    },
+    {
+      "args": [
+        "scripts/deploy.mjs",
+        "--prepare"
+      ],
+      "status": 0
+    }
+  ],
+  "limits": "Browser local fixture; OS motion emulation/physical device/screen reader and new production permissions not tested."
+}
