@@ -1,0 +1,21 @@
+{
+  "title": "Alex Morgan — A few good places.",
+  "description": "Design, notes and things worth sharing.",
+  "siteName": "Alex Morgan",
+  "locale": "en_US",
+  "url": "https://kayak-draw-9549.onpagelove.com/onboarding/after/demos/design-refresh-20261106/link-in-bio/",
+  "themeColor": "#e8e4df",
+  "image": {
+    "url": "https://kayak-draw-9549.onpagelove.com/onboarding/after/demos/design-refresh-20261106/link-in-bio/assets/social/default.png",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png",
+    "alt": "Alex Morgan — A few good places."
+  },
+  "icons": {
+    "svg": "https://kayak-draw-9549.onpagelove.com/onboarding/after/demos/design-refresh-20261106/link-in-bio/assets/identity/favicon.svg",
+    "ico": "https://kayak-draw-9549.onpagelove.com/onboarding/after/demos/design-refresh-20261106/link-in-bio/assets/identity/favicon.ico",
+    "apple": "https://kayak-draw-9549.onpagelove.com/onboarding/after/demos/design-refresh-20261106/link-in-bio/assets/identity/apple-touch-icon.png"
+  },
+  "manifest": "https://kayak-draw-9549.onpagelove.com/onboarding/after/demos/design-refresh-20261106/link-in-bio/assets/identity/site.webmanifest"
+}

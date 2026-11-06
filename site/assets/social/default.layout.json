@@ -1,0 +1,16 @@
+{
+  "design": "invitation",
+  "mode": "dark",
+  "titleLines": [
+    "A few good places."
+  ],
+  "titleSize": 84,
+  "descriptionLines": [
+    "Design, notes and things worth sharing."
+  ],
+  "fonts": [
+    "Fraunces",
+    "Inter Tight"
+  ],
+  "safeInset": 64
+}
